@@ -6,7 +6,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert(`Te saluda${inputRef.current?.value} desde React`);
+    alert(`Te saluda ${inputRef.current?.value} desde React`);
   };
 
   return (
